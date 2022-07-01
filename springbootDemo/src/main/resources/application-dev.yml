@@ -1,0 +1,28 @@
+# 开发环境配置
+server:
+  port: 8081
+  servlet:
+    context-path: /
+# mybatis配置
+mybatis:
+  # 扫描映射文件
+  mapper-locations: classpath:dao/*.xml
+  # 配置别名扫描的包
+  type-aliases-package: com.qf.pojo
+  configuration:
+    # 开启驼峰映射配置
+    map-underscore-to-camel-case: true
+# 连接数据库的信息
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-2ze8nk8c96h25vi98jo.mysql.rds.aliyuncs.com:3306/springboot2203?serverTimezone=UTC
+    username: root
+    password: Jiang312410
+    type: com.alibaba.druid.pool.DruidDataSource
+logging:
+  level:
+    com.qf.dao: DEBUG
+aliyun:
+  ip: 10.10.10.10
+  username: zhangsan
