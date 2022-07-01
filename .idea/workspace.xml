@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a85b36e-792c-4016-92f2-399ce441fe7a" name="Changes" comment="索引增删">
-      <change afterPath="$PROJECT_DIR$/EsDemo/src/test/java/com/qf/test/TestDocManage.java" afterDir="false" />
+    <list default="true" id="3a85b36e-792c-4016-92f2-399ce441fe7a" name="Changes" comment="文档(数据修改) 新增  删除">
+      <change afterPath="$PROJECT_DIR$/EsDemo/src/test/java/com/qf/test/TestSimplSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EsDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EsDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EsDemo/src/test/java/com/qf/test/TestIndexManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/EsDemo/src/test/java/com/qf/test/TestIndexManage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EsDemo/target/classes/com/qf/pojo/Persion.class" beforeDir="false" afterPath="$PROJECT_DIR$/EsDemo/target/classes/com/qf/pojo/Persion.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +70,8 @@
       <recent name="com.qf" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDocManage.testCreateDocument">
-    <configuration name="TestDocManage.testCreateDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestSimplSearch.testFindByRange">
+    <configuration name="TestSimplSearch.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EsDemo" />
       <extension name="coverage">
         <pattern>
@@ -83,14 +80,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qf.test.TestDocManage" />
-      <option name="METHOD_NAME" value="testCreateDocument" />
+      <option name="MAIN_CLASS_NAME" value="com.qf.test.TestSimplSearch" />
+      <option name="METHOD_NAME" value="testFindById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDocManage.testDeleteDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSimplSearch.testFindByRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EsDemo" />
       <extension name="coverage">
         <pattern>
@@ -99,14 +96,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qf.test.TestDocManage" />
-      <option name="METHOD_NAME" value="testDeleteDocument" />
+      <option name="MAIN_CLASS_NAME" value="com.qf.test.TestSimplSearch" />
+      <option name="METHOD_NAME" value="testFindByRange" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDocManage.testUpdateDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSimplSearch.testMatchAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EsDemo" />
       <extension name="coverage">
         <pattern>
@@ -115,14 +112,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qf.test.TestDocManage" />
-      <option name="METHOD_NAME" value="testUpdateDocument" />
+      <option name="MAIN_CLASS_NAME" value="com.qf.test.TestSimplSearch" />
+      <option name="METHOD_NAME" value="testMatchAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIndexManage.testCreatIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSimplSearch.testMatchQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EsDemo" />
       <extension name="coverage">
         <pattern>
@@ -131,14 +128,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qf.test.TestIndexManage" />
-      <option name="METHOD_NAME" value="testCreatIndex" />
+      <option name="MAIN_CLASS_NAME" value="com.qf.test.TestSimplSearch" />
+      <option name="METHOD_NAME" value="testMatchQuery" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIndexManage.testDeleteIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSimplSearch.testMultipartQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EsDemo" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qf.test.TestIndexManage" />
-      <option name="METHOD_NAME" value="testDeleteIndex" />
+      <option name="MAIN_CLASS_NAME" value="com.qf.test.TestSimplSearch" />
+      <option name="METHOD_NAME" value="testMultipartQuery" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestDocManage.testCreateDocument" />
-        <item itemvalue="JUnit.TestDocManage.testDeleteDocument" />
-        <item itemvalue="JUnit.TestDocManage.testUpdateDocument" />
-        <item itemvalue="JUnit.TestIndexManage.testCreatIndex" />
-        <item itemvalue="JUnit.TestIndexManage.testDeleteIndex" />
+        <item itemvalue="JUnit.TestSimplSearch.testFindByRange" />
+        <item itemvalue="JUnit.TestSimplSearch.testFindById" />
+        <item itemvalue="JUnit.TestSimplSearch.testMultipartQuery" />
+        <item itemvalue="JUnit.TestSimplSearch.testMatchQuery" />
+        <item itemvalue="JUnit.TestSimplSearch.testMatchAll" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +172,7 @@
       <workItem from="1656578030957" duration="19127000" />
       <workItem from="1656635494974" duration="2154000" />
       <workItem from="1656644965732" duration="4649000" />
-      <workItem from="1656660199445" duration="9593000" />
+      <workItem from="1656660199445" duration="12801000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1656659064655</created>
@@ -191,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656667373294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="文档(数据修改) 新增  删除">
+      <created>1656677204968</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656677204968</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +216,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="索引增删" />
-    <option name="LAST_COMMIT_MESSAGE" value="索引增删" />
+    <MESSAGE value="文档(数据修改) 新增  删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="文档(数据修改) 新增  删除" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
