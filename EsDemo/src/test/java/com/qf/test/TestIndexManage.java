@@ -53,7 +53,7 @@ public class TestIndexManage {
 
                             .startObject("birthday")
                                 .field("type","date")
-                                .field("format","yyyy-MM-dd")
+                                .field("format","yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis")
                             .endObject()
                     .endObject()
                 .endObject();
