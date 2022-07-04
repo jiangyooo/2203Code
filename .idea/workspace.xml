@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a85b36e-792c-4016-92f2-399ce441fe7a" name="Changes" comment="ES简单查询">
-      <change afterPath="$PROJECT_DIR$/EsDemo/target/test-classes/com/qf/test/TestHardSearch.class" afterDir="false" />
+    <list default="true" id="3a85b36e-792c-4016-92f2-399ce441fe7a" name="Changes" comment="ES高级查询">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +176,7 @@
       <workItem from="1656644965732" duration="4649000" />
       <workItem from="1656660199445" duration="13571000" />
       <workItem from="1656731347197" duration="3260000" />
-      <workItem from="1656897737631" duration="5645000" />
+      <workItem from="1656897737631" duration="6619000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1656659064655</created>
@@ -227,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656906861442</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ES高级查询">
+      <created>1656906994492</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656906994492</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,9 +256,9 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="索引增删" />
     <MESSAGE value="文档(数据修改) 新增  删除" />
-    <MESSAGE value="ES高级查询" />
     <MESSAGE value="ES简单查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="ES简单查询" />
+    <MESSAGE value="ES高级查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES高级查询" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
